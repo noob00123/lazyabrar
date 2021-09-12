@@ -32,7 +32,7 @@
         },
         "LEECH_TIMEOUT": {
             "description": "Timeout for leeches",
-            "value": "31557600",
+            "value": "300",
             "required": false
         }
     },
