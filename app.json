@@ -27,12 +27,12 @@
         },
         "MAGNET_TIMEOUT": {
             "description": "Timeout for magnets",
-            "value": "60",
+            "value": "31557600",
             "required": false
         },
         "LEECH_TIMEOUT": {
             "description": "Timeout for leeches",
-            "value": "300",
+            "value": "31557600",
             "required": false
         }
     },
