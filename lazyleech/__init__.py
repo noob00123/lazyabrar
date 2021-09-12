@@ -18,7 +18,7 @@ ALL_CHATS = EVERYONE_CHATS + ADMIN_CHATS
 
 PROGRESS_UPDATE_DELAY = int(os.environ.get('PROGRESS_UPDATE_DELAY', 10))
 MAGNET_TIMEOUT = int(os.environ.get('LEECH_TIMEOUT', 31557600))
-LEECH_TIMEOUT = int(os.environ.get('LEECH_TIMEOUT', 31557600))
+LEECH_TIMEOUT = int(os.environ.get('LEECH_TIMEOUT', 300))
 
 logging.basicConfig(level=logging.INFO)
 app = Client('lazyleech', API_ID, API_HASH, plugins={'root': os.path.join(__package__, 'plugins')}, bot_token=BOT_TOKEN, test_mode=TESTMODE, parse_mode='html', sleep_threshold=30)
